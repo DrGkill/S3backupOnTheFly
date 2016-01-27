@@ -10,6 +10,8 @@ Version:  1.0
 
 Usage:    Crypt directory with GPG and send the archive to S3 bucket
 
+You will certainly note that there is no purge option. You should go get informations about how to set lifecycle to your S3 objects :
+http://docs.aws.amazon.com/AmazonS3/latest/UG/lifecycle-configuration-bucket-no-versioning.html
 
  Usage domain: Made to be inserted into cron script on Linux only
 
